@@ -17,8 +17,8 @@
 class BugReport {
 public:
     // Constructor
-    BugReport(int changeRequestID, const std::string &description, int priority, const std::string &status, const std::string &dateOfRequest, 
-            Product// product, Customer// customer);
+    BugReport(int changeRequestID, const std::string &description, int priority, const std::string &status, const std::string &dateOfRequest
+            Product product, Customer customer);
 
     // Getters
     int getChangeRequestID() const;
