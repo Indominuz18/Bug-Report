@@ -63,7 +63,7 @@ public:
     // Sets Product anticipated release
     // @param isAnticipatedRelease - bool representing whether or not Product has an anticipated release
     // @return - returns true if successful, false otherwise
-    bool setName(bool isAnticipatedRelease);
+    bool setAnticipatedRelease(bool isAnticipatedRelease);
 
     // File operations
 
@@ -78,7 +78,7 @@ public:
     // Writes a Product object to the file
     // @param - productObject - The Product object to write
     // @return - True if the write operation was successful, false otherwise
-    static bool writeProduct(const Product& productObject);
+    static bool writeProduct();
 
     // Moves the file cursor to the beginning of the file
     static void seekToBeginningOfFile();
